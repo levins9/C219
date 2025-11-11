@@ -23,7 +23,6 @@ function Header({ isOpen }) {
   return (
     <header className="header">
       <h1>Shencord Pizza and Friends.</h1>
-      {isOpen && <p className="tagline">Miso Good It's Crazy!</p>}
     </header>
   );
 }
